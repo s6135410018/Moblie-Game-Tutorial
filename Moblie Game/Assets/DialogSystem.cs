@@ -26,7 +26,6 @@ public class DialogSystem : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             line += 1;
-            print(line);
             textPercent = 0f;
             endWord = false;
         }
